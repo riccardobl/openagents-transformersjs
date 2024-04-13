@@ -1,8 +1,8 @@
-FROM node:alpine
+FROM node:latest
 RUN mkdir -p /app
 WORKDIR /app
 ADD . /app
-RUN \
+RUN  \
 npm i --production && \
 chown 1000:1000 -Rf /app 
 
