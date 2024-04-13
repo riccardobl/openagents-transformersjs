@@ -1,0 +1,19 @@
+{
+  "name": "openagents-transformerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "cd src && node  index.js",
+    "start": "cd src && node  index.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@protobuf-ts/grpc-transport": "^2.9.4",
+    "@xenova/transformers": "^2.16.1",
+    "openagents-grpc-proto": "https://github.com/riccardobl/openagents-grpc-proto/releases/download/v0.3.7/openagents_grpc_proto-JAVASCRIPT.tgz"
+  }
+}
