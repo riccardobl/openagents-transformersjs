@@ -14,6 +14,6 @@
   "dependencies": {
     "@protobuf-ts/grpc-transport": "^2.9.4",
     "@xenova/transformers": "^2.16.1",
-    "openagents-grpc-proto": "https://github.com/riccardobl/openagents-grpc-proto/releases/download/v0.3.7/openagents_grpc_proto-JAVASCRIPT.tgz"
+    "openagents-grpc-proto": "https://github.com/riccardobl/openagents-grpc-proto/releases/download/v0.4/openagents_grpc_proto-JAVASCRIPT.tgz"
   }
 }

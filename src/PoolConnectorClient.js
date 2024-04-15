@@ -1,8 +1,8 @@
-import { NostrConnectorClient as _NostrConnectorClient } from "openagents-grpc-proto";
+import { PoolConnectorClient as _PoolConnectorClient } from "openagents-grpc-proto";
 import * as GRPC from "@grpc/grpc-js";
 import { GrpcTransport } from "@protobuf-ts/grpc-transport";
 
-export default class PoolConnectorClient extends _NostrConnectorClient {
+export default class PoolConnectorClient extends _PoolConnectorClient {
     constructor(
         ip, 
         port,
