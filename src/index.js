@@ -16,10 +16,10 @@ const templates = [
             tags: [
                 ["name", "TransformerJS Action"],
                 ["param", "run-on", "openagents/transformersjs"],
-                ["param", "pipeline", "%PIPELINE_NAME%"],
-                ["param", "model", "%MODEL_NAME%"],
+                ["param", "pipeline", "%INPUT_PIPELINE_NAME%"],
+                ["param", "model", "%INPUT_MODEL_NAME%"],
                 ["about", "An action that runs a transformer.js model"],
-                ["i", "%INPUT%"],
+                ["i", "%INPUT%_DATA"],
                 ["tos", ""],
                 ["privacy", ""],
                 ["author", ""],
